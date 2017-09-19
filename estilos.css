@@ -1,0 +1,450 @@
+/*  
+Theme Name: Arbache
+Theme URI: http://www.arbache.com.br/
+Description: Tema
+Version: 1.0
+Author: Tropus
+Author URI: http://www.tropus.com.br/
+*/
+
+
+
+/*	Reset
+------------------------------------------------------------- */
+* {
+	margin:0;
+	padding:0;
+}
+hr {
+	display:none;
+}
+#Navegacao {
+	display:none;
+}
+html {
+	background:#353B3E;
+}
+body {
+	background:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(img/cabecalho_fundo.jpg) #FFF repeat-x;
+}
+/* Site
+------------------------------------------------------------- */
+#Site {
+	background:url(img/site_fundo.jpg) no-repeat center 4px;
+}
+/* Cabecalho
+------------------------------------------------------------- */
+#Cabecalho {
+	margin:0 auto;
+	width:760px;
+	height:250px;
+	padding-bottom:25px;
+}
+#Cabecalho h1 a {
+	display:block;
+	width:320px;
+	height:210px;
+	text-indent:-9999px;
+/*	background:url(img/logo_fundo.jpg) no-repeat center;*/
+	padding-top:4px;
+}
+
+/* Conteudo 
+------------------------------------------------------------- */
+#Conteudo {
+	margin:0 auto;
+	width:760px;
+}
+#Destaques {
+	float:left;
+	width:490px;
+	background:#FFF;
+}
+#Principal {
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-style:italic;
+	background:url(img/principal_fundo.jpg) no-repeat left bottom;
+	min-height:170px;
+	_height:170px;
+	padding:0 10px;
+	margin-bottom:15px;
+}
+#Principal h2 {
+	font-size:130%;
+	color:#FFBE00;
+	padding-bottom:7px;
+}
+#Principal h2 a {
+	color:#FFBE00;
+}
+#Principal p a {
+	color:#333;
+	font-size:90%;
+}
+#Principal a {
+	text-decoration:none;
+}
+#Principal a:hover {
+	text-decoration:underline;
+}
+#Principal img {
+	float:left;
+	border:solid 3px #FFBE00;
+	margin-right:15px;
+}
+#Secundarios {
+	clear:both;
+}
+#Secundarios h2 {
+	display:none;
+}
+#Secundarios ul {
+	list-style:none;
+}
+#Secundarios ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:75%;
+	border-top:solid 1px #CCC;
+
+	position:relative;
+	float:left;
+	width:100%;
+}
+#Secundarios ul li a {
+	display:block;
+	padding:10px 5px 10px 90px;
+	_padding-top:7px;
+
+	color:#666;
+	text-decoration:none;
+}
+#Secundarios ul li.primeira a {
+	font-size:120%;
+	color:#444;
+	font-weight:bold;
+}
+#Secundarios ul li a:hover {
+	color:#333;
+	background:#F9F9F9;
+}
+#Secundarios .data {
+	position:absolute;
+	top:20px;
+	_top:15px;
+	left:10px;
+	font-style:normal;
+}
+#Secundarios li.primeira .data {
+	font-size:90%;
+}
+
+
+#Texto {
+	background:#FFF;
+	padding:0 10px 15px 10px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;
+	line-height:1.5em;
+	color:#484848;
+
+	position:relative;
+	float:left;
+	width:470px;
+}
+#Texto h2 {
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:200%;
+	font-weight:normal;
+	letter-spacing:-2px;
+	text-align:right;
+	
+	padding-bottom:5px;
+	margin-bottom:5px;
+	border-bottom:solid 1px #FFBE00;
+}
+#Texto p.descricao {
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:120%;
+	color:#BBB;
+}
+#Texto h3 {
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:200%;
+	font-weight:normal;
+	letter-spacing:-2px;
+	color:#FFBE00;
+	
+	padding-bottom:15px;
+}
+#Texto p {
+	padding-bottom:10px;
+}
+#Texto ol {
+	padding:0 0 10px 20px;
+}
+#Texto ul {
+	padding:0 0 10px 15px;
+}
+#Texto img {
+	border:solid 3px #FFBE00;
+	margin:0 5px;
+}
+#Texto a {
+	color:#FF9900;
+}
+#Texto a:hover {
+	text-decoration:none;
+}
+
+
+/* Formularios
+------------------------------------------------------------- */
+#Texto form {
+	padding-top:10px;
+}
+#Texto form fieldset {
+	border:0;	
+}
+#Texto form legend {
+	display:none;
+}
+#Texto form ol {
+	list-style:none;
+}
+#Texto form label {
+	display:block;
+	float:left;
+	width:100px;
+	text-align:right;
+	margin-right:10px;
+	
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color:#666;
+}
+#Texto form span.emailreqtxt,
+#Texto form span.reqtxt {
+	display:block;
+	float:left;
+	width:100px;
+	text-align:right;
+	color:#666;
+}
+#Texto form input,
+#Texto form textarea {
+	width:308px;
+	border:solid 1px #BBB;
+	background:url(img/input_fundo.jpg) repeat-x bottom;
+	padding:3px 5px;
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:90%;
+	_float:left;
+}
+#Texto form ol li {
+	clear:both;
+	margin-bottom:10px;
+}
+#Texto .linklove {
+	display:none;
+}
+#Texto input.sendbutton,
+#Texto form button {
+	float:left;
+	border:solid 1px #BBB;
+	background:url(img/input_fundo.jpg) repeat-x bottom;
+	padding:0 10px;
+	width:320px;
+	margin-left:130px;
+
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color:#666;
+	text-transform:uppercase;
+}
+
+/* Personalizacao por paginas
+------------------------------------------------------------- */
+#Curso #Texto,
+#Noticia #Texto {
+	width:auto;
+	float:none;
+	zoom:1; /* IE RIDICULO faz a imagem sumir! */
+}
+#Texto p.descricao {
+	position:absolute;
+	top:0;
+}
+#Noticia p.descricao {
+	position:static;
+	top:auto;
+}
+#Noticia #Texto h3 {
+	position:absolute;
+	top:0;
+}
+#Faleconosco #Texto {
+	width:450px;
+	padding-right:30px;
+}
+#Quiz #Texto h2,
+#Faleconosco #Texto h2 {
+	text-align:left;
+	color:#FFBE00;
+}
+#Quiz #Texto input {
+	_margin-bottom:10px;
+}
+#Imprensa #Secundarios h3 {
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:#999;
+	padding-bottom:5px;
+}
+#Imprensa #Secundarios .data {
+	top:10px;
+	_top:8px;
+}
+
+/* Publicidade
+------------------------------------------------------------- */
+#Publicidade {
+	margin-left:500px;
+	padding-bottom:20px;
+}
+#Publicidade img {
+	border:0;
+}
+#Publicidade h2 {
+	display:none;
+}
+#Publicidade p {
+	padding-bottom:10px;
+}
+
+
+/* Menu
+------------------------------------------------------------- */
+#Menu {
+	position:absolute;
+	top:215px;
+	width:100%;
+}
+#Menu h2 {
+	display:none;
+}
+#Menu ul {
+	list-style:none;
+	margin:0 auto;
+	width:740px;
+}
+#Menu ul li {
+	float:left;
+}
+#Menu ul li a {
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:80%;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:uppercase;
+	text-decoration:none;
+
+	display:block;
+	padding:4px 10px 8px 10px;
+}
+#Menu ul li a:hover {
+	text-decoration:underline;
+}
+#Menu ul li ul {
+	position:absolute;
+	top:26px;
+}
+#Menu ul li ul {
+	display:none;
+	z-index:9999;
+}
+#Menu ul li:hover ul {
+	display:block;
+	padding-left:10px;
+}
+#Menu ul li.ativo,#Menu ul li.current_page_item,#Menu ul li.current_page_parent,#Noticia #Menu ul li.page-item-3,#Curso #Menu ul li.page-item-6,#Imprensa #Menu ul li.page-item-7 {
+	background:url(img/menu_direita.jpg) #FFF no-repeat right top;
+}
+#Menu ul li.ativo a,#Menu ul li.current_page_item a,#Menu ul li.current_page_parent a,#Noticia #Menu ul li.page-item-3 a,#Curso #Menu ul li.page-item-6 a,#Imprensa #Menu ul li.page-item-7 a {
+	background:url(img/menu_esquerda.jpg) no-repeat top left;
+	color:#000;
+	padding:4px 20px 8px 22px;
+}
+#Menu ul li.ativo ul li,#Menu ul li.current_page_item ul li,#Menu ul li.current_page_parent ul li,#Noticia #Menu ul li.page-item-3 ul li,#Curso #Menu ul li.page-item-6 ul li,#Imprensa #Menu ul li.page-item-7 ul li,
+#Menu ul li.ativo ul li a,#Menu ul li.current_page_item ul li a,#Menu ul li.current_page_parent ul li a,#Noticia #Menu ul li.page-item-3 ul li a,#Curso #Menu ul li.page-item-6 ul li a,#Imprensa #Menu ul li.page-item-7 ul li a,
+#Menu ul li ul li,
+#Menu ul li ul li a {
+	background:none;
+	font-size:85%;
+	color:#AAA;
+	padding-bottom:3px;
+}
+#Menu ul li.produtos:hover {
+	background:url(img/menu_produtos.jpg) no-repeat left top;
+	height:110px;
+}
+#Menu ul li.produtos:hover a {
+	background:none;
+	color:#000;
+	padding:4px 20px 8px 22px;
+}
+#Menu ul li.produtos:hover ul li a {
+	color:#AAA;
+	padding:7px 10px 5px 12px;
+}
+#Menu ul li.produtos:hover ul li {
+	background:url(img/menu_final.jpg) repeat-x left top;	
+}
+#Menu ul li.produtos:hover ul li.final {
+	background:url(img/menu_final.jpg) no-repeat right top;	
+	padding-right:10px;
+}
+
+/* Rodape 
+------------------------------------------------------------- */
+#Rodape {
+	clear:both;
+	background:url(img/rodape_fundo.jpg) #353B3E repeat-x;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+	color:#CCC;
+	padding:20px 0;
+	line-height:1.5em;
+	position:relative;
+}
+#Rodape a {
+	color:#CCC;
+	text-decoration:none;
+	padding-bottom:2px;
+}
+#Rodape a:hover {
+	border-bottom:solid 1px #CCC;
+}
+#Rodape #hcard-Marcelo-Glacial {
+	display:none;
+}
+#Rodape .vcard {
+	margin:0 auto;
+	width:740px;
+	position:relative;
+}
+#Rodape #Tropus .url {
+	position:absolute;
+	top:-65px;
+	right:0;
+	margin-left:715px;
+	background:url(img/tropus_fundo.jpg) no-repeat;
+	display:block;
+	width:22px;
+	height:49px;
+	text-indent:-9999px;
+}
+#Rodape #Tropus div {
+	display:none;
+}
